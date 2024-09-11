@@ -131,13 +131,37 @@ Los prefijos empleados para los múltiplos del byte normalmente son los mismos d
 
 ![image](https://github.com/user-attachments/assets/b42f074d-96be-4de9-ab06-1f7a559ada44)
 
-Unidades Sistema internacional
+### Unidades Sistema internacional
 
 ![image](https://github.com/user-attachments/assets/22308a20-9fd7-46b3-b301-ef9f5516f7c0)
 
-Unidades Sistema Binario
+### Unidades Sistema Binario
 
 ![image](https://github.com/user-attachments/assets/884d16d6-3e97-4630-bab1-24fd230f181a)
 
+### Conversiones de Sistema internacional a Sistema Binario
 
+Para convertir en Sistema Binario es necesario multiplicar o dividir por 2^10 o lo que es lo mismo por 1024 por cada salto de unidad.
 
+* 2 MiB = 2 * 210=2*1024 = 2048 KiB (1 salto)​
+
+* 2TiB =2* 230 = 2* 1024*1024*1024 = 21.47.483.648 KiB (3 saltos)​
+
+* 6.000.000 KiB = 6.000.000/1024 = 6.000.000/210  = 5859,375 MiB (1 salto)​
+
+* 6.000.000 KiB = 6.000.000 /1024/1024/1024/1024= 6.000.000 / 240= 5,45*10-7 PiB (4 saltos)
+
+### Espacio en disco
+Un fabricante nos dice que un SSD tiene 500 GB que según el SI son 500.000.000.000 Bytes​
+
+A nivel binario, 1 KiB equivale a 1024 Bytes y no 1000 Bytes, por tanto un MiB son 1024 KB y un GiB son 1024 MB. Así, el cálculo siguiendo el ejemplo del SSD de 500 GB es que tendremos 500.000.000.000 dividido entre (1024 x 1024 x 1024), y el resultado nos da 465.66GiB y no 500 GB.​
+
+500,000,000,000 / 1024/1024/1024 = 465.66 GiB​
+
+Para pasar 465.66 GiB a B.​
+
+De la tabla anterior tenemos que 1 GiB = 230 =  1 073 741 824  bytes​
+
+Por tanto 465GiB = 465*1 073 741 824  = 499.289.948.160 bytes​
+
+# Hardware
