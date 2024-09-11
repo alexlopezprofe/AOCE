@@ -282,3 +282,80 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
 
 
 > Ampliamente utilizado en portátiles.
+
+
+## PROCESADOR
+
+Es el componente principal del ordenador, dirige y controla el resto de componentes, decodifica y ejecuta las instrucciones de los programas cargados en la RAM. Es un circuito integrado o chip, formado por millones de [ transistores](https://en.wikipedia.org/wiki/Transistor) .
+
+No solo se encuentra en ordenadores, también se encuentra en teléfonos móviles, electrodomésticos, consolas, etc.
+
+![image](https://github.com/user-attachments/assets/caff1c03-a8a9-4859-aa8f-0b9a14790edf)
+
+### Núcleos
+
+Los procesadores antiguos eran  **single core** , en los microprocesadores modernos suelen existir más de un núcleo ( **core** ) de procesamiento. Cada núcleo es un pequeño microprocesador independiente dentro del mismo microprocesador.
+
+Cada núcleo se compone de su propia Unidad de Control (UC), Unidad Aritmético-lógica(ALU), Unidad de Punto Flotante (UPF), Registros y los primeros niveles de Memoria Caché (L1 y L2).
+
+Gracias a los núcleos, el microprocesador será capaz de realizar a la vez una tarea (ciclo de instrucción) por cada núcleo que posea. De esta manera el sistema responderá de manera más cómoda aunque una tarea monopolice uno de los núcleos. Como regla general, a mayor número de núcleos, los microprocesadores presentan mejores prestaciones.
+
+> ¿Núcleo físico VS núcleo lógico?
+> [Simultaneous Multi Threading (SMT) de AMD vs  Hyper Threading de Intel](https://hardzone.es/reportajes/comparativas/intel-hyperthreading-amd-smt/)
+> [https://hardzone.es/2018/08/11/importante-no-confundir-hilos-nucleos/](https://hardzone.es/2018/08/11/importante-no-confundir-hilos-nucleos/)
+
+**No confundir varios cores con sistemas multiprocesador**
+
+![image](https://github.com/user-attachments/assets/fb351da2-9f38-4f8a-9a00-0f521b3126f1)
+
+### Velocidad de reloj
+
+![](assets/img/Unidad04/u47.png)
+
+También llamada frecuencia de funcionamiento, se refiere al número de operaciones que la CPU puede realizar en un solo segundo.
+
+Viene dada por la velocidad del reloj y se mide en megahercios o gigahercios (1 GHz = 1000 MHz).
+
+Por ejemplo una CPU con una velocidad de reloj de 3,2 GHz ejecuta 3.200 millones de ciclos por segundo.
+
+
+[![](https://img.youtube.com/vi/7d1eyZBpLn8/hqdefault.jpg)](https://www.youtube.com/watch?v=7d1eyZBpLn8)
+
+[![](https://img.youtube.com/vi/TtuUANbaEFI/hqdefault.jpg)](https://www.youtube.com/watch?v=TtuUANbaEFI)
+
+### Litografía
+
+El proceso de fabricación o  **litografía**  se mide en  **nanómetros**  (para poneros en perspectiva de lo pequeño que es esto, un nanómetro son 10^-7 centímetros, o lo que es lo mismo, 0,0000001 centímetros), y es precisamente  **el tamaño de los transistores** . Así pues, un proceso de 14 nm significa que cada transistor mide 14 x 10^-7 centímetros.
+
+Esto significa que en comparación, en el proceso de 7 nm se puede meter literalmente el doble de transistores que con el proceso de 14 nm en la misma unidad de superficie. EL efecto de poder meter un mayor número de transistores en el mismo espacio repercute en el rendimiento y en la eficiencia energética, así que tener una litografía menor implica que el procesador será  **más potente y más eficiente** .
+
+
+[![](https://img.youtube.com/vi/7d1eyZBpLn8/hqdefault.jpg)](https://www.youtube.com/watch?v=7d1eyZBpLn8)
+
+[![](https://img.youtube.com/vi/TtuUANbaEFI/hqdefault.jpg)](https://www.youtube.com/watch?v=TtuUANbaEFI)
+
+### Thermal Design Power. TDP
+
+La **Potencia de Diseño Térmico  o TDP** representa la potencia media, en vatios, que el procesador disipa cuando funciona a Frecuencia Base con todos los núcleos activos bajo una carga de trabajo de alta complejidad.
+
+Un procesador con un TDP de 95W, se espera que genere un valor de 95W de calor cuando está en 100% de su uso.
+
+El TDP no es una medida directa de cuánta potencia consumirá un componente, pero si que es una buena aproximación.
+
+### Refrigeración. Disipación de calor en las CPU.
+
+#### Refrigeración por aire
+
+![image](https://github.com/user-attachments/assets/c360fa67-d250-4b14-93ff-d183ddc9ceb0)
+
+
+#### Refrigeración líquida
+
+![image](https://github.com/user-attachments/assets/645364dd-35d6-4dc9-bcbe-7ff58f2c2140)
+
+## Pasta térmica
+
+Es el elemento que mayor resistencia térmica hace en el conjunto del disipador. Es muy importante tener una buena pasta térmica en chips potentes, ya que su **conductividad** será mayor. La función de la pasta térmica es mejorar todo lo posible, la unión entre el IHS y DIE (método difícil de aplicar) y entre  el IHS bloque frío del disipador(método fácil)
+
+
+
