@@ -165,3 +165,66 @@ De la tabla anterior tenemos que 1 GiB = 230 =  1 073 741 824  bytes​
 Por tanto 465GiB = 465*1 073 741 824  = 499.289.948.160 bytes​
 
 # Hardware
+
+## Cajas
+
+
+La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y de esqueleto para alojar las piezas básicas de un ordenador (placa base, dispositivos de almacenamiento, fuente de alimentación, etc...). El tamaño ha de ser lo suficientemente grande para que albergue los diferentes componentes del ordenador. 
+
+El  material  con  el que están construidas es aluminio o aleaciones de aluminio, metacrilato o plástico, pudiendo ser cartón hasta fibra pasando por titanio, kevlar,.......
+
+![image](https://github.com/user-attachments/assets/c5388d6a-3ff8-4f67-b282-17fd01ecfafa) ![image](https://github.com/user-attachments/assets/7bf17240-05eb-49b8-b207-149c1b358b25) ![image](https://github.com/user-attachments/assets/73225955-2d65-4d59-bf84-5dc468d6dc44)
+
+
+
+### Partes de la caja.
+
+![image](https://github.com/user-attachments/assets/fcb8f849-cf4b-4c10-b074-9e64319e0ff5)
+
+
+* **Chasis**   . Parte interna metálica (generalmente de aluminio) donde se fija la placa base.  
+
+* **Cubierta**   . Parte exterior de la caja. Normalmente las cubiertas se pueden desmontar para acceder al interior del ordenador
+
+* **Panel frontal**   . Parte delantera de la caja (suele ser de plástico).
+
+* **Panel posterior**   . Donde saldrán al exterior todas las conexiones habituales para elementos externos, así como la salida de ventilación y corriente de la fuente de alimentación.
+  
+![image](https://github.com/user-attachments/assets/a9a85268-48c9-47d9-8ed5-53b3ee66503f)
+
+
+* **Bahías para unidades**   . Espacios para alojar las unidades de almacenamiento (DVD, ..) 
+
+* **Interruptor, pulsador y luces**   . Conjunto de indicadores y botones que le alojan en el panel frontal  para su uso e información (encendido, reset, luz HDD, ...).
+
+
+![image](https://github.com/user-attachments/assets/2d099d1c-21a4-4309-9c46-59ee1f89907c)
+
+
+
+### Tornilleria utilizada en el montaje de los ordenadores
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/283bb5be-9303-445b-bb28-9daf30a446db)](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)
+
+### Tipos de cajas.
+
+La clasificación se hace normalmente por su tamaño dependiendo de las placas base que soportan. Las más usuales  son: 
+
+* **Caja  SFF (Small Form Factor).**    Tamaño pequeño. Mini-ITX
+
+* **Caja de sobremesa** **(Desktop)** Usada en formato horizontal para poder ubicar el monitor encima.  Micro-ATX
+
+* **Caja  minitorre (Mini Tower).** Usada  en  formato  vertical  para  placas  Micro-ATX. Entre 32-40 cm. Podemos encontrarla como microtorre
+
+* **Semitorre (Mid Tower).**   ATX. Entre 45-55 cm
+
+* **Gran  torre (Full Tower.)** EATX. Entre 55-72cm. 
+
+* **Caja rack.** Usada para servidores industriales o para montar servidores en armarios rack (19”).
+
+![image](https://github.com/user-attachments/assets/b741b218-2bd7-418f-9892-56221e271224)
+
+![image](https://github.com/user-attachments/assets/5c747dc9-2ef3-48cc-a176-47eb00db2d11)
+
+![image](https://github.com/user-attachments/assets/8e90a3ef-a90c-41d7-b19a-9a6ffca540e7)
+
+
