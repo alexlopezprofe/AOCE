@@ -124,3 +124,20 @@ Un byte es la unidad de información fundamental usada en informática y telecom
 * Para pasar de bits a Bytes tendremos que dividir el valor.​
 
 256 bits = 256/8 = 32 bytes
+
+## kilobyte VS kibibyte.​
+
+Los prefijos empleados para los múltiplos del byte normalmente son los mismos del **Sistema internacional**, pero también se utilizan los **prefijos binarios**, existiendo diferencias entre ellos, ya que según el tipo de prefijo utilizado los bytes resultantes tienen valores diferentes.​ Esto se debe a que los prefijos del SI se basan en base 10 (sistema decimal), y los prefijos binarios se basan en base 2 (sistema binario), por ejemplo:​
+
+![image](https://github.com/user-attachments/assets/b42f074d-96be-4de9-ab06-1f7a559ada44)
+
+Unidades Sistema internacional
+
+![image](https://github.com/user-attachments/assets/22308a20-9fd7-46b3-b301-ef9f5516f7c0)
+
+Unidades Sistema Binario
+
+![image](https://github.com/user-attachments/assets/884d16d6-3e97-4630-bab1-24fd230f181a)
+
+
+
