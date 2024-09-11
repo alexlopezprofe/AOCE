@@ -372,3 +372,15 @@ Físicamente es un conjunto de chips soldados sobre una PCB, a este conjunto de 
 Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por **JEDEC** (Joint Electron Device Engineering Council)
 (https://www.jedec.org/)
 
+![image](https://github.com/user-attachments/assets/9ac52d20-8845-4641-bcb3-d8004cdee3fd)
+
+![image](https://github.com/user-attachments/assets/7e515cb1-6aec-4da5-9496-a5edc204694c)
+
+### Estructura módulo memoria RAM
+
+![image](https://github.com/user-attachments/assets/49ee5028-1374-490e-9e9c-789dee501980)
+
+
+
+
+
