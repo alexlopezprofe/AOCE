@@ -353,9 +353,22 @@ El TDP no es una medida directa de cuánta potencia consumirá un componente, pe
 
 ![image](https://github.com/user-attachments/assets/645364dd-35d6-4dc9-bcbe-7ff58f2c2140)
 
-## Pasta térmica
+#### Pasta térmica
 
 Es el elemento que mayor resistencia térmica hace en el conjunto del disipador. Es muy importante tener una buena pasta térmica en chips potentes, ya que su **conductividad** será mayor. La función de la pasta térmica es mejorar todo lo posible, la unión entre el IHS y DIE (método difícil de aplicar) y entre  el IHS bloque frío del disipador(método fácil)
 
+![image](https://github.com/user-attachments/assets/942737ac-9a67-4710-87a3-1180fb4535ef)
 
+## Memoria RAM
+
+La RAM o memoria de acceso aleatorio (en inglés: Random Access Memory), es la memoria principal de un equipo microinformático y se encarga de almacenar de manera _temporal_ tanto las instrucciones como los datos que ejecuta el microprocesador.
+
+Es una memoria volátil, es decir, la información se pierde al interrumpirse el flujo eléctrico (apagar el ordenador).
+
+Se denominan «de acceso aleatorio» porque se puede leer o escribir en una posición de memoria con un tiempo de espera igual para cualquier posición.
+
+Físicamente es un conjunto de chips soldados sobre una PCB, a este conjunto de chips, se le denomina **módulo** de memoria RAM.
+
+Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por **JEDEC** (Joint Electron Device Engineering Council)
+(https://www.jedec.org/)
 
