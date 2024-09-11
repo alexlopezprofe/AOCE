@@ -203,6 +203,7 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 
 ### Tornilleria utilizada en el montaje de los ordenadores
+
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/283bb5be-9303-445b-bb28-9daf30a446db)](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)
 
 ### Tipos de cajas.
@@ -227,4 +228,57 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 ![image](https://github.com/user-attachments/assets/8e90a3ef-a90c-41d7-b19a-9a6ffca540e7)
 
+## Fuente de alimentación
 
+La fuente de alimentación o Power Supply (PS) es el dispositivo que proporciona al ordenador (o a cualquier otro aparato electrónico) la energía que necesita para funcionar.
+
+Vatios (W) = Voltios (V) x Amperios (A).
+
+La fuente de alimentación de un ordenador de sobremesa se encuentra en el interior de la carcasa, es una caja metálica rectangular dotada, normalmente, de un ventilador. De ella sale un grupo de cables de colores que van a parar a los distintos dispositivos dentro de la carcasa. Los conectores que vienen incluidos en la fuente de alimentación están **normalizados.**
+Los componentes del interior de PC funcionan con corriente continua (DC) y la red eléctrica funciona con corriente alterna (AC) → La fuente de alimentación convierte la corriente alterna (230V AC) en continua (+12V, +5V y +3,3V DC) para que el PC pueda utilizarla.
+
+![image](https://github.com/user-attachments/assets/f30a0b36-a81c-431f-a805-812fcf758213)
+
+## Placas base
+
+La placa base (mainboard) o placa madre (motherboard) es el elemento principal del ordenador; a ella se conectan todos los demás dispositivos, como pueden ser el disco duro, la memoria o el microprocesador, y hace que todos estos componentes funcionen en equipo. De ella, dependerán los componentes que podremos instalar y las posibilidades de ampliación del ordenador.
+
+Físicamente, es una placa de material sintético formada por un circuito impreso, en la que se halla un conjunto de chips, el chipset, la BIOS, los puertos del ratón y del teclado, los conectores IDE y SATA, el zócalo del microprocesador, los zócalos de memoria, los puertos paralelo, serie, USB.
+
+## Factor de forma de placas base
+
+El factor de forma son los estándares que definen algunas características físicas de las placas base. Existen diferentes tamaños y tipos de placas base. El factor de forma de la placa base determina el tamaño y orientación de la placa con respecto a la caja, el tipo de fuente de alimentación necesaria y dicta los periféricos que pueden integrarse en la placa.
+
+Hasta la fecha se han definido (y comercializado) diversos  **form factor**. 
+
+Los más importantes son:
+
+* **ATX (305 x 244 mm) y Micro-ATX** ((244 x 244 mm)) los más extendidos actualmente
+
+* **Mini-ITX** (170 x 170 mm) , Nano-ITX y Pico-ITX** . Formatos muy reducidos de VIA Technologies y compatibles con ATX.
+
+* **Extended ATX** (300 x 330 mm) . Factor de forma de mayor tamaño Están pensadas para configurar equipos de grandes prestaciones.
+
+### El socket
+
+El socket o zócalo es el conector de la placa base en el que se inserta el microprocesador, existen de varios tipos:
+
+- **PGA** (Pin Grid Array): el socket solo tiene taladros mientras que, los pines, se encuentran en el procesador.
+
+![image](https://github.com/user-attachments/assets/c0573ee3-21f6-4971-aca6-8811223f0495)
+
+![image](https://github.com/user-attachments/assets/77bfc7d2-74b3-49f8-9907-93e8f661703e)
+
+
+
+- **LGA** (Land Grid Array): Los pines se encuentran en la placa base. Intel siempre utiliza sockets LGA
+
+![image](https://github.com/user-attachments/assets/eb08071b-ae2a-4b5b-a3de-b57f63086785)
+
+![image](https://github.com/user-attachments/assets/3a612201-4512-473e-86d0-ca29581c3603)
+
+
+- **BGA** (Ball Grid Array): En este tipo de sockets se suelda el procesador a la placa base
+
+
+> Ampliamente utilizado en portátiles.
