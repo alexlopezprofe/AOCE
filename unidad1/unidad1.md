@@ -381,6 +381,249 @@ Los fabricantes tienen que fabricar los módulos de memoria siguiendo los están
 ![image](https://github.com/user-attachments/assets/49ee5028-1374-490e-9e9c-789dee501980)
 
 
+## Dispositivos de almacenamiento
 
 
+Los dispositivos de almacenamiento de un equipo microinformático, también conocidos como memoria secundaria, es el lugar donde se almacenan permanentemente los programas y datos con los que se trabaja en el mismo. Se caracteriza por tener gran capacidad de almacenamiento, ser no volátil y por un tiempo de acceso más lento que el acceso a la memoria principal.
 
+https://github.com/alexlopezprofe/MyM/blob/main/https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/
+
+
+Actualmete los dispositivos de almacenamiento de un equipo microinformático y donde se suele instalar el sistema operativo, además de tener la posibilidad de almacenar programas y datos son los **discos duros magnéticos o HDD (Hard Disk Drive)** y las **unidades de estado sólido o SDD (Solid State Drive)**
+
+### Disco duro magnético. Estructura mecánica
+
+https://github.com/alexlopezprofe/MyM/blob/main/https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06//Unidad066.png)
+
+### **SSD (Solid State Drive - Unidad de Estado Sólido)** utilizan memorias de tipo **flash NAND**.
+
+**Ventajas:**
+
+* Velocidad o Tasa de transferencia de datos. Tanto en la búsqueda de los datos como en las lecturas posteriores. En una unidad de este tipo el tiempo que tienes que esperar hasta obtener los datos es siempre el mismo (similar a la RAM). 
+* Mayor resistencia a golpes. Al no tener componentes móviles responden mejor tanto a las vibraciones como a los golpes.
+* Menor consumo de energía. Necesitan menos potencia para funcionar al no disponer de partes móviles
+* Menor ruido. Otra ventaja más de no tener partes móviles.
+* No tiene fragmentación.
+
+**Inconvenientes:**
+
+* Precio por bit mayor.
+* Menor capacidad.
+* Sus celdas pueden reescribirse un número limitado de veces.
+
+# Dispositivos de almacenamiento en red
+
+## NAS
+El almacenamiento conectado en red, Network Attached Storage (NAS), es el nombre dado a una tecnología de almacenamiento dedicada a compartir la capacidad de almacenamiento de un computador/ordenador (servidor) con computadoras personales o servidores clientes a través de una red (normalmente TCP/IP), haciendo uso de un sistema operativo optimizado para dar acceso con los protocolos CIFS, NFS, FTP o TFTP.
+
+Suelen tener varios discos y se pueden configurar en *[RAID](https://es.wikipedia.org/wiki/RAID)*
+
+Hay discos duros exclusivos para NAS que tienen más durabilidad.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0667.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0668.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0669.png)
+
+## Cabina de discos. Servidores de almacenamiento
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0670.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0671.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0672.png)
+
+*[https://www1.la.dell.com/ue/es/gen/Empresarial/pvaul_md1000/pd.aspx?refid=pvaul_md1000&s=gen](https://www1.la.dell.com/ue/es/gen/Empresarial/pvaul_md1000/pd.aspx?refid=pvaul_md1000&s=gen)*
+
+# RAID
+
+Un RAID es un grupo de discos duros independientes configurados para funcionar como uno solo, ya sea sumando su espacio total, mejorando la velocidad de lectura y escritura o configurados para duplicar la información para estar seguros de que, en caso de que uno de los discos duros se rompa, no vamos a perder los datos.
+
+Existen varios tipo de RAID
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0673.png)
+
+## RAID 0
+
+En esta configuración todos los discos duros funcionan como un único volumen, y su espacio total es la suma del espacio de todos los discos duros.
+
+Doble velocidad de lectura y escritura.
+
+No hay paridad de datos ni volumen de respaldo.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0674.png)
+
+## RAID 1
+
+Es uno de los tipos de RAID más utilizados para quienes buscan duplicidad de los datos para estar seguros de que los datos nunca se pierden. En este tipo de RAID, los datos se duplican en los discos duros como si fuese un espejo.
+
+Mayor velocidad de lectura. Sin mejora en la velocidad de escritura.
+
+Un disco duro espejo. Si falla uno de los discos duros se puede reemplazar sin perder datos.
+
+Perdemos el 50% del espacio total de los discos. El espacio total de un RAID 1 es la mitad del espacio total de los discos duros. Por ejemplo, si hacemos un RAID 1 con dos discos duros de 4 TB solo tendremos un espacio total de 4 TB.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0675.png)
+
+## RAID 5
+
+La información se distribuye a lo largo de todos los discos duros, aunque se reserva dicho espacio (el tamaño de una de las unidades) para paridad. Esta paridad, además, se reparte entre todos los discos duros.
+
+Si fallan dos discos se pierde absolutamente toda la información del RAID.
+
+La mejora de velocidad de lectura es también X-1 veces el número de discos usados.
+
+El espacio total de los discos es X-1, El espacio total de un RAID 5 es el espacio de todos los discos duros menos 1, es decir, si vamos a usar 4 discos duros de 4 TB el espacio total será de 12 TB.
+
+Si falla uno de los discos duros, cualquiera de ellos, se puede reemplazar y recuperar todos los datos.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0676.png)
+
+## RAID 6
+
+Prácticamente igual que el RAID 5, pero añade un segundo nivel de paridad, lo que nos permite que fallen hasta dos discos duros del RAID y poder sustituirlos. Si fallan 3, entonces toda la información del RAID se pierde.
+
+El espacio total de los discos es X-2, igual que la mejora de la velocidad de lectura. A cambio de esta doble paridad incluida en el RAID 6 se pierde el espacio total de dos de los discos duros. Por ejemplo, en una configuración de 4 discos duros de 4 TB, el espacio total que tendríamos es de 8 TB, con el doble de velocidad de lectura.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0677.png)
+
+# Almacenamiento en la nube
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad0678.png)
+
+Un sistema de almacenamiento en la nube o Cloud Storage es un modelo de almacenamiento de datos basado en redes de ordenadores donde nuestros datos están alojados en espacios de almacenamiento virtualizados. Por lo tanto, el espacio no se encuentra en el propio equipo físico del usuario, sino en uno o varios servidores ofrecidos por la compañía que contratemos el servicio.
+
+## Ventajas 
+
+### Rentabilidad
+
+Con el almacenamiento en la nube, no hay que comprar hardware, ni aprovisionar almacenamiento, ni utilizar capital adicional para los picos de la empresa. Puede agregar o eliminar capacidad de almacenamiento bajo demanda, cambiar rápidamente las características de rendimiento y retención, y pagar solo por el almacenamiento que realmente utiliza. A medida que se accede a los datos con poca frecuencia y en contadas ocasiones, puede incluso trasladarlos automáticamente a un almacenamiento de menor costo, con lo que se consigue un ahorro de costos aún mayor. Al trasladar las cargas de trabajo de almacenamiento de las instalaciones a la nube, puede reducir el costo total de propiedad al eliminar el exceso de aprovisionamiento y el costo de mantenimiento de la infraestructura de almacenamiento.
+
+### Mayor agilidad
+
+Con el almacenamiento en la nube, los recursos están a un solo clic. Se reduce el tiempo para poner esos recursos a disposición de su organización de semanas a solo minutos. Esto se traduce en un aumento espectacular de la agilidad de su organización. El personal se libera en gran medida de las tareas de adquisición, instalación, administración y mantenimiento. Y como el almacenamiento en la nube se integra con una amplia gama de herramientas de análisis, su personal puede ahora extraer más información de sus datos para impulsar la innovación.
+
+### Despliegue más rápido
+
+Cuando los equipos de desarrollo están listos para comenzar, la infraestructura nunca debería ralentizarlos. Los servicios de almacenamiento en la nube permiten al Departamento de TI suministrar rápidamente la cantidad exacta de almacenamiento que se necesita, cuando y donde sea necesario. Los desarrolladores pueden centrarse en resolver problemas complejos de las aplicaciones en vez de tener que administrar los sistemas de almacenamiento.
+
+### Administración eficiente de los datos
+
+Al utilizar políticas de administración del ciclo de vida del almacenamiento en la nube, puede realizar potentes tareas de administración de la información, incluida la separación por niveles automatizada o el bloqueo de datos para cumplir con los requisitos de conformidad. También puede utilizar el almacenamiento en la nube para crear un almacenamiento multirregional o global para sus equipos distribuidos mediante el uso de herramientas como la replicación. Puede organizar y administrar los datos de manera que admitan casos de uso específicos, creen eficiencias de costos, refuercen la seguridad y cumplan con los requisitos de conformidad.
+
+### Escalabilidad 
+El almacenamiento en la nube ofrece una capacidad de almacenamiento casi ilimitada, lo que le permite escalar verticalmente tanto y tan rápido como necesite. Esto elimina las limitaciones de la capacidad de almacenamiento local. Puede escalar o desescalar verticalmente de forma eficaz el almacenamiento en la nube según sea necesario para los análisis, los lagos de datos, copias de seguridad o aplicaciones nativas de la nube. Los usuarios pueden acceder al almacenamiento desde cualquier lugar y en cualquier momento, sin preocuparse de los complejos procesos de asignación de almacenamiento ni de esperar a que haya nuevo hardware
+
+
+# Estructura lógica de los discos
+
+La estructura de partición . Se encarga de definir cómo se organiza la información en el disco duro. Independientemente del hardware o del sistema operativo, todas las computadoras se inician utilizando MBR (BIOS) o GPT (UEFI) .
+
+Espacio particionado . Es el espacio del disco que ha sido asignado a alguna partición. Una partición es una división del disco duro, de forma que el sistema operativo la considera como si fuera una unidad totalmente independiente. Algunos usuarios prefieren tener particiones independientes para los datos personales, los programas y los archivos del sistema operativo.
+
+Espacio sin particionar. Es espacio no accesible del disco ya que todavía no ha sido asignado a ninguna partición y está sin formatear.
+
+## MBR (Master Boot Record)
+
+* En discos duros que tienen tabla de particiones con el esquema MBR, cuando se crean las particiones, se graba dicha información en el sector de arranque del disco (MBR). Básicamente, el MBR es un tipo especial de sector de arranque que se encuentra en el comienzo de los dispositivos de almacenamiento de datos particionados, como un disco duro fijo o una unidad de almacenamiento externa, y que contiene una tabla de particiones que indica el lugar del disco donde se encuentran las particiones. Normalmente, en dicha tabla se guarda información sobre:
+    * el tipo de partición,
+    * el tamaño de la partición (se indica dónde empieza y dónde acaba cada partición),
+    * si es o no la partición activa (que es la que está configurada para arrancar).
+* De esta forma, cuando arranca un ordenador la BIOS intenta localizar el MBR donde identifica la partición definida como activa y se inicia el proceso de arranque. Dicho de otra forma, el MBR apunta a la partición activa y el equipo comenzará a cargar el sistema operativo almacenado en esa partición activa o un menú de arranque que permita elegir el sistema operativo (si tiene varios instalados) a arrancar.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06124.png)
+
+* Tamaño de 512 bytes
+* Consta de tres partes
+    * Master Boot Code o cargador de arranque (446 bytes). Contiene códigos y datos que la BIOS necesita para iniciar la carga del sistema operativo (SO).
+    * Tabla de particiones (64 Bytes). Posee información sobre las distribuciones del disco duro. Información de hasta 4 particiones de 16 bytes cada una.
+    * Firma (2 bytes) → 0x5AA. Los sistemas operativos utilizan la firma de disco para identificar y diferenciar diferentes dispositivos de almacenamiento de datos y unidades de disco duro en la computadora para el acceso a los datos.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06125.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06126.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06127.png)
+
+## GPT (GUID Partition Table)
+
+** GPT (GUID Partition Table)** es un nuevo estándar para colocar tablas de particiones en medios de almacenamiento. Forma parte de la (UEFI).
+
+GPT se localiza al comienzo del disco duro ( *[Primary GUID](https://es.wikipedia.org/wiki/Tabla_de_particiones_GUID)* ), al igual que el MBR, pero no en el primero, sino en el segundo sector. El primer sector todavía está reservado para MBR (Protective MBR) por motivos de seguridad y para conservar la compatibilidad con sistemas más antiguos.
+
+Los datos críticos para el funcionamiento de la plataforma se almacenan en particiones en lugar de hacerlo en sectores ocultos o no particionados (como en el caso de MBR). Además, los discos GPT incluyen tablas de partición principales redundantes (Primary GUID) y de copia de seguridad (Backup GUID) a fin de mejorar la integridad de la estructura de datos de la partición.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06128.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06129.png)
+
+MBR &rarr; BIOS // GPT &rarr; UEFI
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/a87824f1-d580-4b4d-9680-04bb863b2291)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06130.png)
+
+> ¿Qué pasa si se corrompe MBR?
+
+> ¿Qué pasa si se corrompe GPT?
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06131.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06132.png)
+
+## Tipos de particiones
+
+### Partición primaria.
+
+Puede ser reconocida como una partición de arranque y puede contener un sistema operativo que realice el arranque del equipo. Una de las particiones primarias se llama la partición activa y es la de arranque. El ordenador busca en esa partición activa el arranque del sistema. Cuando hay varios sistemas operativos instalados la partición activa tiene un pequeño programa llamado gestor de arranque que presenta un pequeño menú que permite elegir qué sistema operativo se arranca. Los sistemas operativos detectarán las particiones primarias y les asignará una unidad. Límite de 4 en MBR y 128 en GPT.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06133.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06134.png)
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06135.png)
+
+### Partición extendida.
+
+También conocida como partición secundaria, sirve para contener múltiples unidades lógicas en su interior. Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico por tanto sólo se utiliza en MBR. Solo puede existir una partición de este tipo por disco, y solo sirve para contener particiones lógicas. Por lo tanto, es el único tipo de partición que style="color:#333333"> *no* style="color:#333333"> soporta un sistema de archivos directamente. No se puede instalar un sistema operativo en ella. style="color:#333333"> *Solo aplicable a MBR.*
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06136.png)
+
+Disco duro con tres particiones primarias y una extendida.
+
+### Partición lógica.
+
+Ocupa una porción de la partición extendida o la totalidad de la misma, y se puede formatear con un sistema de archivos diferente (FAT32, NTFS, ext3, ext4, etc.) y se le asignan una unidad, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos. **Solo aplicable a MBR.**
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06137.png)
+
+Disco duro MBR con tres particiones primarias y una extendida con cuatro lógicas
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06138.png)
+
+**Disk Management - Administrador de discos**
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06139.png)
+
+# Sistema de archivos
+
+El sistema de archivos o File System es un método para el almacenamiento y organización de archivos y los datos que estos contienen, para hacer más fácil la tarea encontrarlos y acceder a ellos.
+
+Para ello, el sistema operativo utiliza las famosas “carpetas” o “directorios” con el fin de organizar todas las rutas y localizar la información contenida en el disco duro.
+
+La estructura de directorios suele ser jerárquica, ramificada o en árbol invertido.
+
+![](https://github.com/alexlopezprofe/MyM/blob/main/assets/img/Unidad06/Unidad06140.png)
+
+Los principales tipos sistemas de archivos que encontramos son los siguientes:
+
+* NTFS (New Technology File System).
+* HPFS (High Performance File System).
+* EXT (Extended file System).
+* HFS+ (Hierarchical File System).
+* APFS (Apple File System).
+* FAT (File Allocation Table).
+* exFAT (Extended File Allocation)
+* FAT32.
+* ReFS
