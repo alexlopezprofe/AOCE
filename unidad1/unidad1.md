@@ -384,11 +384,28 @@ Una licencia de software es un contrato legal entre el autor (o propietario) del
    - **Ejemplo:** WinRAR, antivirus de prueba de 30 días.
 
 
+# Sistema operativo
 
+Un sistema operativo (SO) es un software que actúa como intermediario entre el hardware y el software de una computadora. Es el encargado de administrar los recursos del sistema, controlar el acceso a los mismos y proporcionar una interfaz para que el usuario pueda interactuar con la máquina.​
 
+Podemos definir un sistema operativo  como un programa que se ejecuta continuamente en la computadora, que maneja el hardware, provee la base para el funcionamiento de los programas de aplicación y sistema, y que actúa como intermediario entre el usuario de la computadora y el hardware de esta.
+<img width="5497" height="3169" alt="image" src="https://github.com/user-attachments/assets/3eae9315-1195-4bad-9b1f-fa2ca1e65f3d" />
 
+## Componentes de un SO
+ 
+* **Kernel o núcleo**. Es el componente esencial de un sistema operativo y de ahí su nombre, y sirve para administrar los recursos de hardware solicitados por los diferentes elementos de software, decidiendo a qué y cuándo se concede este acceso. Se ejecuta en modo privilegiado.​
+* **Gestor de procesos**. Un proceso es un programa en ejecución. Encargado de crear, finalizar, parar o reanudar procesos y de ofrecer mecanismos para que los procesos puedan comunicarse y sincronizarse, así como posibilidad de establecer prioridades.​
 
+* **Gestor de memoria**. Es el componente encargado de gestionar la memoria del sistema. El gestor de memoria se encarga de asignar y liberar la memoria del sistema para las aplicaciones y procesos que se están ejecutando en el momento, y garantiza que el espacio de memoria esté siendo utilizado de manera óptima.​
 
+* **Gestor de entrada/salida**. El Gestor de E/S es un componente se encarga de la coordinación y gestión de los dispositivos de entrada/salida en la computadora. Su función principal es proporcionar una interfaz coherente y eficiente para el acceso a los dispositivos de E/S y garantizar que los recursos del sistema se utilicen de manera efectiva.​
+
+* **Gestor de almacenamiento**. Dentro de la gestión del almacenamiento podemos distinguir entre gestión de archivos y gestión de almacenamiento. ​
+
+* **Sistemas de protección**. Es la parte del sistema operativo que abarca los mecanismos destinados a controlar el acceso de los procesos y usuarios a los recursos definidos por un sistema informático. ​
+
+* **Gestor de comunicaciones**. Se encarga de coordinar y controlar el acceso a la red, permitiendo que las aplicaciones y procesos se comuniquen con otros dispositivos en la red.​
+* **Interfaz de usuario**. Es la parte que permite al usuario interaccionar con el ordenador. Esta interfaz puede ser gráfica, proporcionando un escritorio, ventanas y componentes gráficos para una interacción más intuitiva, o bien puede ser a través de una línea de comandos.​
 
 
 
