@@ -25,8 +25,8 @@ Entendemos por sistema informático el conjunto de elementos físicos y lógicos
 
 * **Personal informático:** toda persona que utiliza de alguna manera el sistema, entre ellos, los creadores de software, los programadores o los usuarios en general.​
 
-  ![image](https://github.com/user-attachments/assets/664a2ae1-8825-47d1-8166-5395d128f893)
-
+--- 
+<img width="720" height="369" alt="image" src="https://github.com/user-attachments/assets/e6693da5-e8aa-4950-924a-789a996b51d6" />
 
 
 # Hardware
