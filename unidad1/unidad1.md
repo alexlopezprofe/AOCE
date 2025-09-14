@@ -13,7 +13,9 @@ El término Informática procede de la unión de dos términos: **INFOR**mación
 
 Se define la Informática como la ciencia que estudia el procesamiento automático de la información mediante computadoras
 
+
 En los países de habla inglesa no se utiliza la palabra informática, sino el término Computer Science, o Ciencia de la Computación.
+
 ---
 
 # Sistema informático (SI)
@@ -30,6 +32,7 @@ Entendemos por sistema informático el conjunto de elementos físicos y lógicos
 <img width="720" height="369" alt="image" src="https://github.com/user-attachments/assets/e6693da5-e8aa-4950-924a-789a996b51d6" />
 
 --- 
+
 # Hardware
 
 ## Cajas
