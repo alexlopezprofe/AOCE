@@ -301,12 +301,88 @@ El software establece la comunicación entre el usuario y el hardware, indicando
 
 ---
 
-## Características principales
+## Licencias de software
 
-- **Intangible**: no se puede tocar, pero se puede almacenar en diferentes soportes.  
-- **Reutilizable**: el mismo programa puede ejecutarse en múltiples equipos.  
-- **Actualizable**: se puede mejorar o corregir mediante parches o nuevas versiones.  
-- **Dependencia del hardware**: necesita un soporte físico para ejecutarse.  
-- **Estructurado en capas**: desde el nivel más bajo (firmware) hasta el nivel más alto (aplicaciones de usuario).  
+Una licencia de software es un contrato legal entre el autor (o propietario) del software y el usuario, que establece qué se puede y qué no se puede hacer con el programa.
+*Regula la instalación, uso, distribución, modificación y copia.
+*Protege los derechos de autor y al mismo tiempo fija los derechos del usuario.
+
+## Clasificación general del software según su licencia
+
+### 🔹 Software libre
+- Permite **usar, copiar, estudiar, modificar y redistribuir** el programa sin restricciones.  
+- Requiere mantener la misma licencia si se redistribuye (según el tipo).  
+- **Ejemplo:** GNU/Linux.  
+
+### 🔹 Código abierto (open source)
+- Similar al software libre, pero más centrado en la **colaboración y accesibilidad al código fuente**.  
+- **Ejemplo:** Mozilla Firefox.  
+
+| Licencias Libre                                                    | Tipo              | Características principales                                                                                             | Ejemplo                         |
+| ------------------------------------------------------------------ | ----------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| **GPL (General Public License)**                                   | Libre             | Permite modificar y redistribuir, pero siempre bajo la misma licencia.                                                  | Linux, WordPress                |
+| **MIT**                                                            | Libre y permisiva | Muy flexible, permite usar, copiar y modificar incluso en software propietario.                                         | Node.js, jQuery                 |
+| **Apache**                                                         | Libre y permisiva | Similar a MIT, añade cláusula de protección frente a patentes.                                                          | Apache Server, Android          |
+| **BSD**                                                            | Libre y permisiva | Permite redistribuir con pocas restricciones, incluso como propietario.                                                 | FreeBSD                         |
+| **Creative Commons (aplicadas a software, CC-BY, CC-BY-SA, etc.)** | Varias            | Usadas más en contenidos, pero aplicables al software. Permiten modular permisos (uso comercial, modificaciones, etc.). | Materiales educativos digitales |
+
+
+### 🔹 Freeware
+- Software **gratuito** para uso personal o profesional, pero **sin acceso al código fuente**.  
+- **Ejemplo:** Skype.  
+
+### 🔹 Shareware
+- Software de **prueba gratuito** durante un tiempo limitado o con funciones restringidas.  
+- **Ejemplo:** WinRAR.  
+
+### 🔹 Software propietario
+- El más restrictivo: **no permite modificar ni redistribuir** el software.  
+- Solo se usa bajo las condiciones que marca el fabricante.  
+- **Ejemplo:** Microsoft Office.  
+
+#### Tipos de licencias de software propietario
+
+1. **Licencia comercial**  
+   - El usuario paga por el derecho a usar el software.  
+   - Puede ser de pago único (perpetua) o pago periódico (suscripción).  
+   - **Ejemplo:** Microsoft Office, AutoCAD.
+
+2. **Licencia OEM (Original Equipment Manufacturer)**  
+   - El software viene preinstalado en un dispositivo (portátiles, móviles, impresoras, etc.).  
+   - Suele estar ligado al hardware donde se instala y no puede transferirse.  
+   - **Ejemplo:** Windows preinstalado en un portátil.
+
+
+3. **Licencia de uso personal o individual**  
+   - Limitada a un único usuario o un número pequeño de dispositivos.  
+   - No permite redistribución ni uso empresarial a gran escala.  
+   - **Ejemplo:** Licencias individuales de antivirus.
+
+4. **Licencia por volumen o corporativa**  
+   - Dirigida a empresas, instituciones educativas u organismos públicos.  
+   - Permite instalar el software en un número grande de equipos bajo un contrato centralizado.  
+   - **Ejemplo:** Microsoft 365 para empresas, Adobe Creative Cloud Enterprise.
+
+5. **Licencia de suscripción**  
+   - El usuario paga una cuota periódica (mensual o anual) para usar el software.  
+   - Permite acceso a la última versión y actualizaciones constantes.  
+   - **Ejemplo:** Spotify Premium, Office 365, Adobe Creative Cloud.
+
+6. **Licencia freeware propietario**  
+   - Aunque el software es gratuito para el usuario, sigue siendo propietario porque no se permite modificar ni acceder al código fuente.  
+   - **Ejemplo:** Skype, Zoom en versión gratuita.
+
+7. **Licencia de prueba (trial)**  
+   - Versión gratuita del software con tiempo limitado o funciones restringidas.  
+   - Busca que el usuario después compre la versión completa.  
+   - **Ejemplo:** WinRAR, antivirus de prueba de 30 días.
+
+
+
+
+
+
+
+
 
 
