@@ -276,3 +276,37 @@ https://github.com/alexlopezprofe/MyM/blob/main/https://github.com/alexlopezprof
 * Menor capacidad.
 * Sus celdas pueden reescribirse un número limitado de veces.
 
+# Software
+
+
+El **software** es el conjunto organizado de programas, rutinas, reglas, instrucciones y documentación asociada que permiten a un sistema informático llevar a cabo diferentes tareas de procesamiento de la información. Constituye la parte **lógica e intangible** del ordenador, en contraste con el **hardware**, que representa la parte física.  
+
+El software establece la comunicación entre el usuario y el hardware, indicando a este último **qué operaciones realizar, en qué orden y cómo gestionarlas**. Está compuesto no solo por los programas ejecutables, sino también por bibliotecas, controladores, sistemas de gestión de datos y cualquier recurso lógico que contribuya al funcionamiento de un sistema.  
+
+---
+
+## Clasificación del software
+
+1. **Software de sistema**  
+   - Diseñado para gestionar los recursos físicos (CPU, memoria, dispositivos de entrada/salida, redes).  
+   - Incluye sistemas operativos, controladores de dispositivos, utilidades de gestión y entornos virtuales.  
+
+2. **Software de aplicación**  
+   - Orientado al usuario final.  
+   - Permite realizar tareas concretas como edición de textos, gestión de bases de datos, diseño gráfico, contabilidad, navegación web, etc.  
+
+3. **Software de desarrollo o programación**  
+   - Herramientas empleadas por programadores para crear y mantener otros programas.  
+   - Ejemplos: compiladores, depuradores, editores de código, entornos de desarrollo integrados (IDE).  
+
+---
+
+## Características principales
+
+- **Intangible**: no se puede tocar, pero se puede almacenar en diferentes soportes.  
+- **Reutilizable**: el mismo programa puede ejecutarse en múltiples equipos.  
+- **Actualizable**: se puede mejorar o corregir mediante parches o nuevas versiones.  
+- **Dependencia del hardware**: necesita un soporte físico para ejecutarse.  
+- **Estructurado en capas**: desde el nivel más bajo (firmware) hasta el nivel más alto (aplicaciones de usuario).  
+
+
