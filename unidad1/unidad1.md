@@ -14,6 +14,7 @@ El término Informática procede de la unión de dos términos: **INFOR**mación
 Se define la Informática como la ciencia que estudia el procesamiento automático de la información mediante computadoras
 
 En los países de habla inglesa no se utiliza la palabra informática, sino el término Computer Science, o Ciencia de la Computación.
+---
 
 # Sistema informático (SI)
 
@@ -25,10 +26,10 @@ Entendemos por sistema informático el conjunto de elementos físicos y lógicos
 
 * **Personal informático:** toda persona que utiliza de alguna manera el sistema, entre ellos, los creadores de software, los programadores o los usuarios en general.​
 
---- 
+
 <img width="720" height="369" alt="image" src="https://github.com/user-attachments/assets/e6693da5-e8aa-4950-924a-789a996b51d6" />
 
-
+--- 
 # Hardware
 
 ## Cajas
@@ -275,7 +276,7 @@ https://github.com/alexlopezprofe/MyM/blob/main/https://github.com/alexlopezprof
 * Precio por bit mayor.
 * Menor capacidad.
 * Sus celdas pueden reescribirse un número limitado de veces.
-
+---
 # Software
 
 
@@ -283,7 +284,6 @@ El **software** es el conjunto organizado de programas, rutinas, reglas, instruc
 
 El software establece la comunicación entre el usuario y el hardware, indicando a este último **qué operaciones realizar, en qué orden y cómo gestionarlas**. Está compuesto no solo por los programas ejecutables, sino también por bibliotecas, controladores, sistemas de gestión de datos y cualquier recurso lógico que contribuya al funcionamiento de un sistema.  
 
----
 
 ## Clasificación del software
 
@@ -383,6 +383,7 @@ Una licencia de software es un contrato legal entre el autor (o propietario) del
    - Busca que el usuario después compre la versión completa.  
    - **Ejemplo:** WinRAR, antivirus de prueba de 30 días.
 
+---
 
 # Sistema operativo
 
@@ -407,5 +408,5 @@ Podemos definir un sistema operativo  como un programa que se ejecuta continuame
 * **Gestor de comunicaciones**. Se encarga de coordinar y controlar el acceso a la red, permitiendo que las aplicaciones y procesos se comuniquen con otros dispositivos en la red.​
 * **Interfaz de usuario**. Es la parte que permite al usuario interaccionar con el ordenador. Esta interfaz puede ser gráfica, proporcionando un escritorio, ventanas y componentes gráficos para una interacción más intuitiva, o bien puede ser a través de una línea de comandos.​
 
-
+---
 
