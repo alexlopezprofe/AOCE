@@ -327,6 +327,12 @@ Una licencia de software es un contrato legal entre el autor (o propietario) del
 | **Creative Commons (aplicadas a software, CC-BY, CC-BY-SA, etc.)** | Varias            | Usadas más en contenidos, pero aplicables al software. Permiten modular permisos (uso comercial, modificaciones, etc.). | Materiales educativos digitales |
 
 
+<img width="291" height="173" alt="image" src="https://github.com/user-attachments/assets/50e69110-3c16-49ed-a0f3-7a71e804dd6a" /> <img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/7530cb02-651c-41bc-a075-b1df51fab89e" />
+<img width="368" height="137" alt="image" src="https://github.com/user-attachments/assets/d4b70b51-5933-40bb-ba44-140e6e43f793" /> <img width="2000" height="700" alt="image" src="https://github.com/user-attachments/assets/ff34835f-e0e5-4e03-9aee-a832bc2eca5d" />
+
+<img width="1318" height="875" alt="image" src="https://github.com/user-attachments/assets/85c34e9d-c8e3-4c96-a01d-102e0663a279" />
+
+
 ### 🔹 Freeware
 - Software **gratuito** para uso personal o profesional, pero **sin acceso al código fuente**.  
 - **Ejemplo:** Skype.  
