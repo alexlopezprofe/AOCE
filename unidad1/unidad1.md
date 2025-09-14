@@ -1,4 +1,4 @@
-# Unidad 1. Equipos informáticos
+# Unidad 1. Introducción a los sistemas operativos
 
 # Introducción
 
