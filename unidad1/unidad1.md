@@ -413,7 +413,44 @@ Podemos definir un sistema operativo  como un programa que se ejecuta continuame
 
 ---
 
-# Gestión de procesos
+## Estructura de un SO​
+Atendiendo a su estructura interna (estrategia para organizar la arquitectura del núcleo) los SO de pueden dividir en: ​
+
+​* Monolíticos: En este tipo de sistemas, el núcleo concentra la mayor parte de la funcionalidad del sistema operativo: La planificación de procesos, la administración de la memoria principal, la administración de ficheros y la gestión de los dispositivos de entrada/salida, de modo que todos sus componentes principales se ejecutarán en modo núcleo. Por ejemplo Solaris, FreeBSD, OSX (versiones anteriores a la 9), GNU/Linux y las versiones de escritorio de Windows anteriores a XP. ​
+
+* Micronúcleo: En este tipo de sistemas, el núcleo sólo contiene la implementación de servicios básicos.( Planificación de procesos) Sistemas operativos que utilizan esta arquitectura son : AIX, AmigaOS, Minix, Symbian ​
+
+* Núcleo híbrido: A mitad de camino entre monolítico y micronúcleo, incluyen la gestión de dispositivos de E/S en modo supervisor con el fin de mejorar el rendimiento del sistema. Se trata de una solución de compromiso que han adoptado muchos de los sistemas operativos modernos, como las versiones de escritorio de Microsoft Windows, a partir de XP, y todas las versiones de Servidor. También se encuentra en esta categoría macOS. 
+
+<img width="1002" height="336" alt="image" src="https://github.com/user-attachments/assets/05b1c3b2-7365-4a35-a46e-585c9e3fecb5" />
+
+ <img width="932" height="586" alt="image" src="https://github.com/user-attachments/assets/30703891-c388-4185-a9a6-63b1464ff3b9" />
+
+## Modo kernel vs modo usuario​
+
+El código que ejecuta el sistema funcional en las CPU en uno de estos dos modos: el modo kernel o el modo usuario. ​
+
+El que se ejecuta en el modo kernel puede acceder al hardware sin restricciones, mientras que el modo usuario restringe el acceso a la CPU, la memoria y a la interfaz de llamadas al sistema (SCI). La memoria se divide de forma similar (el espacio del kernel y del usuario). Esta división conforma la base de algunas operaciones complejas, como la separación de privilegios para la seguridad, el diseño de contenedores y las máquinas virtuales.
+
+
+## Según número de procesos o tareas​
+
+* **Monotarea:** Solamente permite ejecutar un proceso (aparte de los procesos del propio SO) en un momento dado. Una vez que empieza a ejecutar un proceso, continuará haciéndolo hasta su finalización y/o interrupción.​
+
+* **Multitarea o multiprogramación:**  Es capaz de ejecutar varios procesos al mismo tiempo. Este tipo de SO normalmente asigna los recursos disponibles (CPU, memoria, periféricos) de forma alternada a los procesos que los solicitan, de manera que el usuario percibe que todos funcionan a la vez, de forma concurrente.​
+
+* **Multiproceso:** Cuando se han instalado varios procesadores en un mismo ordenador. Puede ser que un mismo trabajo se ejecute por varios procesadores o lo que es más común, que cada procesador ejecute un trabajo diferente.​
+
+​
+## Clasificación de SO
+### Según número de usuarios​
+* **Monousuario:** son aquellos que soportan a un solo usuario a la vez, sin importar el número de procesadores o el número de procesos o tareas que el usuario pueda ejecutar en un mismo instante de tiempo, ​
+
+* **Multiusuario:** son capaces de dar servicio a más de un usuario a la vez Por tanto, aunque haya más de un usuario dado de alta en el sistema, si no pueden trabajar de forma simultánea, el SO no es multiusuario. ​
+
+​
+
+# Proceso
 
 Un **proceso** es un programa en ejecución. No debemos confundir programa con proceso. Cuando un programa se ejecuta, entonces pasa a ser un proceso.​ Un programa es un objeto pasivo, es decir un archivo de datos más en un medio de almacenamiento, sin embargo, un proceso es un objeto activo, al cual el sistema operativo asignará recursos que necesita para realizar su tarea (tiempo de CPU, memoria, archivos y dispositivos de e/s.) y controlará su ejecución.​
 
