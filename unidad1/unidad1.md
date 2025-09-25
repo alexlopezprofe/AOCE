@@ -440,9 +440,10 @@ El que se ejecuta en el modo kernel puede acceder al hardware sin restricciones,
 * **Multitarea o multiprogramación:**  Es capaz de ejecutar varios procesos al mismo tiempo. Este tipo de SO normalmente asigna los recursos disponibles (CPU, memoria, periféricos) de forma alternada a los procesos que los solicitan, de manera que el usuario percibe que todos funcionan a la vez, de forma concurrente.​
 
 * **Multiproceso:** Cuando se han instalado varios procesadores en un mismo ordenador. Puede ser que un mismo trabajo se ejecute por varios procesadores o lo que es más común, que cada procesador ejecute un trabajo diferente.​
-
+---
 ​
 ## Clasificación de SO
+
 ### Según número de usuarios​
 * **Monousuario:** son aquellos que soportan a un solo usuario a la vez, sin importar el número de procesadores o el número de procesos o tareas que el usuario pueda ejecutar en un mismo instante de tiempo, ​
 
