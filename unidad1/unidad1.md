@@ -413,3 +413,44 @@ Podemos definir un sistema operativo  como un programa que se ejecuta continuame
 
 ---
 
+# Gestión de procesos
+
+Un **proceso** es un programa en ejecución. No debemos confundir programa con proceso. Cuando un programa se ejecuta, entonces pasa a ser un proceso.​ Un programa es un objeto pasivo, es decir un archivo de datos más en un medio de almacenamiento, sin embargo, un proceso es un objeto activo, al cual el sistema operativo asignará recursos que necesita para realizar su tarea (tiempo de CPU, memoria, archivos y dispositivos de e/s.) y controlará su ejecución.​
+
+> No confundir programa con proceso
+
+​Cuando se crea un proceso, se le asocia un paquete de información denominado Bloque de Control de Proceso (BCP), que le acompaña durante toda su vida. En este BCP se recogen datos del proceso como son:​
+
+* ​Su estado actual.​
+* Su PID (identificador de proceso) o Process IDentifier​.
+* Valores de registros asociados a él, como el contador de programa, los punteros, acumuladores, etc.​
+* Valores de los recursos asignados: espacio en memoria, archivos, E/S, etc.​
+
+Todos los procesos, desde su creación, tendrán la capacidad de comunicarse y sincronizarse con otros procesos y con recursos del sistema. Este hecho da lugar a diferentes tipos de procesos:​
+
+* Independientes: no se comunican con otros procesos. Estos tipos de procesos apenas existen.
+* Cooperativos: se comunican y sincronizan para realizar una actividad común.​
+* Competitivos: necesitan hacer uso del mismo recurso y, por consiguiente, competirán por él.​
+
+​En cualquier caso, la ejecución de los procesos exigirá concurrencia, cualidad que deberá gestionar el sistema operativo gracias a técnica denominada **multiprogramación**, que permite que dos o más procesos puedan ejecutarse simultáneamente.​
+
+​De todos los procesos que se están ejecutando a la vez sólo uno tiene la "atención del usuario"; Este proceso se dice que está en **primer plano** y del resto se dice que están en **segundo plano**. Es posible pasar un proceso de primer plano a segundo plano y viceversa. Un demonio o daemon (Linux) o **servicio** o service (Windows) es un proceso que se ejecuta en segundo plano sin necesidad alguna de interacción con el usuario para llevar a cabo su tarea.​
+
+## Hilos
+
+Los hilos o hebras (del inglés thread) representan un método software para mejorar el rendimiento y eficacia de los sistemas operativos. Los hilos de un mismo proceso compartirán recursos, como memoria, archivos, recursos hardware, etc.​
+
+​En los actuales sistemas operativos, un proceso puede tener internamente varias actividades concurrentes llamadas hilos de ejecución. Son como “miniprocesos”, unidades pequeñas en las que se divide un proceso, cada una de las cuales realiza una acción.​
+
+​Dicho de otra forma, cada hilo de procesamiento contiene un trozo de la tarea a realizar. De esta forma la CPU es capaz de procesar varias tareas al mismo tiempo y de forma simultánea, de hecho, podrá hacer tantas tareas como hilos tenga, y normalmente dos por cada núcleo.​
+
+​Los sistemas operativos modernos están preparados para crear más de un hilo de ejecución en un proceso. Con las tecnologías multi-core (multiprocesador) esto se hace algo necesario para poder sacar mayor provecho al recurso de procesamiento. En los procesadores que tienen, por ejemplo 6 núcleos y 12 hilos, serán capaces de dividir los procesos en 12 tareas distintas, en lugar de solamente 6.​
+
+<img width="1097" height="608" alt="image" src="https://github.com/user-attachments/assets/35b476ad-b17e-44a4-8a06-a079e32a5154" />
+
+---
+
+<center>
+¿Cómo podemos ver los procesos en Linux?
+<center>
+
