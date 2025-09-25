@@ -491,7 +491,7 @@ Los hilos o hebras (del inglés thread) representan un método software para mej
 > [!NOTE]
 > ¿Cómo podemos ver los procesos en Linux?
 
-Unidad 2. Sistema operativos
+
 
 # Concepto de virtualización y máquinas virtuales
 
