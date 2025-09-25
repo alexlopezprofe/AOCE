@@ -450,7 +450,7 @@ Los hilos o hebras (del inglés thread) representan un método software para mej
 
 ---
 
-<center>
-¿Cómo podemos ver los procesos en Linux?
-<center>
+
+> ¿Cómo podemos ver los procesos en Linux?
+
 
