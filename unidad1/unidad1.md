@@ -310,6 +310,13 @@ Una licencia de software es un contrato legal entre el autor (o propietario) del
 *Regula la instalación, uso, distribución, modificación y copia.
 *Protege los derechos de autor y al mismo tiempo fija los derechos del usuario.
 
+### EULA
+
+**EULA** significa *End-User License Agreement*, que en español se traduce como **Acuerdo de Licencia de Usuario Final**, un contrato legal entre un proveedor de software y un usuario final que detalla los términos de uso de dicho software, incluyendo derechos y restricciones. Los EULA se muestran generalmente durante la instalación de un programa y son necesarios para aceptar los términos antes de poder usarlo. 
+<img width="503" height="386" alt="image" src="https://github.com/user-attachments/assets/b5caa70e-513a-49cc-b1e2-7c84b3457e13" />
+
+
+
 ## Clasificación general del software según su licencia
 
 ### 🔹 Software libre
