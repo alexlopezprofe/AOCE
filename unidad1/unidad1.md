@@ -374,7 +374,7 @@ Una licencia de software es un contrato legal entre el autor (o propietario) del
    - No permite redistribución ni uso empresarial a gran escala.  
    - **Ejemplo:** Licencias individuales de antivirus.
 
-4. **Licencia por volumen o corporativa**  
+4. **Licencia por volumen o corporativa (VLM)**  
    - Dirigida a empresas, instituciones educativas u organismos públicos.  
    - Permite instalar el software en un número grande de equipos bajo un contrato centralizado.  
    - **Ejemplo:** Microsoft 365 para empresas, Adobe Creative Cloud Enterprise.
