@@ -49,7 +49,7 @@ Hay dos tipos de ruta que debemos diferenciar:
 
 - **Ruta absoluta:** Se indica toda la ruta del archivo incluyendo el directorio raíz.
 
-```
+```cmd
 C:\carpeta1\carpeta2\archivo1.doc
 
 ```
