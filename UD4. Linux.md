@@ -1,4 +1,4 @@
-# Unidad 6. Introducción a Linux
+# Unidad 4. Linux
 
 <div style="text-align:center"><img src="https://github.com/alexlopezprofe/SOM/assets/148449360/7357e3c4-9593-47b5-81f7-8744aacd1152" width="25%"></div>
 
